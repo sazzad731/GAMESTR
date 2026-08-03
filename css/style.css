@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+@import url("./utilities.css");
+@import url("./responsive.css");
+@import url("./variables.css");
+
+/* Neue Machina font family */
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../assets/fonts/Neue-Machina/PPNeueMachina-InktrapLight.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../assets/fonts/Neue-Machina/PPNeueMachina-InktrapRegular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../assets/fonts/Neue-Machina/PPNeueMachina-InktrapUltrabold.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* Euclid font family */
+@font-face {
+    font-family: "Euclid Circular";
+    src: url("../assets/fonts/euclid/Euclid Circular A Bold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular";
+    src: url("../assets/fonts/euclid/Euclid Circular A SemiBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular";
+    src: url("../assets/fonts/euclid/Euclid Circular A Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular";
+    src: url("../assets/fonts/euclid/Euclid Circular A Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Euclid Circular";
+    src: url("../assets/fonts/euclid/Euclid Circular A Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}

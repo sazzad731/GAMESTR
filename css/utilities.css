@@ -1,0 +1,108 @@
+.str-font-abeezee {
+    font-family: "ABeeZee", sans-serif;
+    font-style: normal;
+}
+
+.str-font-neue{
+    font-family: "Neue Machina";
+}
+
+.str-font-euclid{
+    font-family: "Euclid Circular";
+}
+
+
+
+/* font weight */
+.str-font-900{
+    font-weight: 900;
+}
+.str-font-800{
+    font-weight: 800;
+}
+.str-font-700{
+    font-weight: 700;
+}
+.str-font-600{
+    font-weight: 600;
+}
+.str-font-500{
+    font-weight: 500;
+}
+.str-font-400{
+    font-weight: 400;
+}
+.str-font-300{
+    font-weight: 300;
+}
+
+
+
+
+.str-font-96px{
+    font-size: 96px;
+}
+.str-font-48px{
+    font-size: 48px;
+}
+.str-font-36px{
+    font-size: 36px;
+}
+.str-font-28px{
+    font-size: 28px;
+}
+.str-font-24px{
+    font-size: 24px;
+}
+.str-font-20px{
+    font-size: 20px;
+}
+.str-font-18px{
+    font-size: 18px;
+}
+.str-font-16px{
+    font-size: 16px;
+}
+.str-font-14px{
+    font-size: 14px;
+}
+.str-font-13px{
+    font-size: 13px;
+}
+.str-font-12px{
+    font-size: 12px;
+}
+.str-font-11px{
+    font-size: 11px;
+}
+
+
+
+/* line height */
+.str-line-height-100{
+    line-height: 100%;
+}
+.str-line-height-120{
+    line-height: 120%;
+}
+.str-line-height-140{
+    line-height: 140%;
+}
+.str-line-height-130{
+    line-height: 130%;
+}
+.str-line-height-110infi{
+    line-height: 110.00000000000001%;
+}
+
+
+/* letter spacing */
+.str-letter-10{
+    letter-spacing: 10%;
+}
+
+
+
+.str-text-uppercase{
+    text-transform: uppercase;
+}
