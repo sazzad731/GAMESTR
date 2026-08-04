@@ -1,3 +1,9 @@
+.container{
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
 .str-font-abeezee {
     font-family: "ABeeZee", sans-serif;
     font-style: normal;
@@ -38,10 +44,15 @@
 
 
 
-
+/* font size */
 .str-font-96px{
     font-size: 96px;
 }
+
+.str-font-64px{
+    font-size: 64px;
+}
+
 .str-font-48px{
     font-size: 48px;
 }
@@ -95,6 +106,10 @@
     line-height: 110.00000000000001%;
 }
 
+.str-line-height-16px{
+    line-height: 16px;
+}
+
 
 /* letter spacing */
 .str-letter-10{
@@ -105,4 +120,92 @@
 
 .str-text-uppercase{
     text-transform: uppercase;
+}
+
+
+
+
+
+.str-flex{
+    display: flex;
+}
+
+.str-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.str-align-center{
+    align-items: center;
+}
+
+.str-justify-between{
+    justify-content: space-between;
+}
+
+.str-flex-col{
+    flex-direction: column;
+}
+
+.str-flex-row{
+    flex-direction: row;
+}
+
+
+
+
+.str-color-white{
+    color: #FFFFFF
+}
+
+.str-primary-sky{
+    color: var(--primary-sky);
+}
+
+
+.str-primary-dark{
+    color: var(--primary-dark);
+}
+
+
+.str-position-relative{
+    position: relative;
+}
+
+
+.str-position-absolute{
+    position: absolute;
+}
+
+
+.str-text-selected{
+    padding: 9.63px 16.75px;
+    background-color: var(--primary-sky);
+    rotate: -6deg;
+    text-wrap: nowrap;
+    color: #FFFFFF;
+}
+
+
+.str-width-100{
+    width: 100%;
+}
+
+
+.str-background-dark600{
+    background-color: #F5F9FA;
+}
+
+.str-background-white{
+    background-color: #FFFFFF;
+}
+
+
+.triangle-shape {
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+    bottom: 0;
 }

@@ -1,0 +1,37 @@
+@media screen and (max-width: 1380px) {
+    .header{
+        padding: 24px 16px 0px !important;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .nav-ul{
+        flex-direction: column;
+        position: absolute;
+        top: -600px;
+        right: 10px;
+        padding: 40px 60px;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+
+    .nav-ul.active{
+        top: 62px !important;
+    }
+
+    .nav-ul-li-a{
+        color: var(--primary-dark) !important;
+    }
+    
+    .mobile-header-btn{
+        display: block !important;
+    }
+
+    .desk-header-btn{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block !important;
+    }
+}

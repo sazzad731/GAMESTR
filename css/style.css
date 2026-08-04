@@ -63,3 +63,250 @@
     font-weight: 300;
     font-style: normal;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+
+*, *::after, *::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* header css */
+.header{
+    position: fixed;
+    margin-bottom: 66px;
+    padding-top: 31px;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.nav-ul{
+    gap: 38px;
+    transition: all .5s;
+}
+
+
+.mobile-header-btn{
+    color: #01A590;
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+.desk-header-btn{
+    color: #01A590;
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+/* hero section */
+.hero-section{
+    background-image: url("../assets/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 137px;
+    height: 732px;
+}
+
+.hero-h1{
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.hero-left-div{
+    padding-left: 168px;
+}
+
+.hero-left-div-p{
+    width: 100%;
+    max-width: 442px;
+    margin-bottom: 44px;
+}
+
+.buy-gsg{
+    margin-bottom: 8px;
+}
+
+.buy-gsg-btns{
+    gap: 12px;
+    margin-bottom: 41px;
+}
+
+.buy-gsg-btn{
+    padding: 16px 24px;
+    cursor: pointer;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.join-our-community{
+    margin-bottom: 8px;
+}
+
+.hero-social-btn-group{
+    gap: 12px;
+}
+
+.hero-social-btn{
+    padding: 16px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.macBook{
+    top: 120px;
+    right: 0;
+    transform: translateX(-7%);
+    z-index: 20;
+}
+
+.top-characters{
+    top: -21%;
+    right: 9%;
+}
+
+.bodyguard{
+    right: 30%;
+    top: -8%;
+    z-index: 21;
+}
+
+
+.left-char{
+    bottom: -28.8%;
+    left: 42%;
+}
+
+
+.right-char{
+    top: 60%;
+    right: 9px;
+    z-index: 21;
+}
+
+
+
+
+
+
+
+
+
+/* Gamesta dapp */
+.gamesta-dapp-section{
+    position: relative;
+    padding-top: 123px;
+    padding-bottom: 212px;
+    background-color: #F5F9FA;
+}
+
+.gamesta-dapp-header{
+    gap: 27px;
+    padding-left: 273px;
+}
+
+.selected-text-group{
+    width: 185.73px;
+}
+
+.gamesta-dapp{
+    margin-bottom: 11px;
+}
+
+.gamesta-dapp-p{
+    width: 100%;
+    max-width: 658px;
+    margin-bottom: 56px;
+}
+
+
+.q4-2022{
+    right: 0px;
+    top: 29px;
+}
+
+.gamesta-dapp-left-line {
+    position: absolute;
+    border: 1px solid var(--primary-sky);
+    width: 262px;
+    rotate: -6deg;
+    top: 160px;
+}
+
+.gamesta-card-grid{
+    padding-left: 101px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 110px; */
+    row-gap: 67px;
+}
+
+.gamesta-card{
+    gap: 24px;
+    width: 100%;
+    max-width: 490px;
+}
+
+
+.gamesta-card-h3{
+    margin-bottom: 12px;
+}
+
+.gamesta-card-img-div{
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* future applications section */
+.future-heading-div{
+    max-width: 643px;
+    margin-left: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+}
