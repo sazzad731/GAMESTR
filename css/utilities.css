@@ -49,6 +49,10 @@
     font-size: 96px;
 }
 
+.str-font-72px{
+    font-size: 72px;
+}
+
 .str-font-64px{
     font-size: 64px;
 }
@@ -120,6 +124,15 @@
 
 .str-text-uppercase{
     text-transform: uppercase;
+}
+
+
+.str-text-center{
+    text-align: center;
+}
+
+.str-text-right{
+    text-align: right;
 }
 
 
@@ -207,5 +220,8 @@
     width: 100%;
     height: 155px;
     clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+
+.str-bottom-0{
     bottom: 0;
 }

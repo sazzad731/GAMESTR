@@ -83,6 +83,10 @@ a{
     text-decoration: none;
 }
 
+img{
+    display: block;
+}
+
 
 
 
@@ -302,6 +306,12 @@ a{
 
 
 /* future applications section */
+.future-section{
+    height: 745px;
+    margin-bottom: 144px;
+    margin-top: 50px;
+}
+
 .future-heading-div{
     max-width: 643px;
     margin-left: 137px;
@@ -309,4 +319,336 @@ a{
     flex-direction: column;
     align-items: end;
     text-align: end;
+}
+
+
+.future-btn{
+    padding: 20px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #06C5C1, #009FEA);
+}
+
+
+.future-h2{
+    margin-bottom: 29px;
+}
+
+
+.future-card{
+    padding: 32px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.future-card-1{
+    background-color: #EBF9FF;
+    width: 199px;
+    height: 199px;
+    top: 22px;
+    right: 23%;
+    box-shadow: 0px 25px 34px -32px #27beffb7;
+}
+
+.future-card-2 {
+    background-color: #EBF9FF;
+    width: 193px;
+    height: 193px;
+    bottom: 6%;
+    left: 15%;
+    box-shadow: 0px 25px 34px -32px #27beffb7;
+}
+
+.future-card-3 {
+    background-color: #F5F9FA;
+    width: 180px;
+    height: 180px;
+    bottom: 38%;
+    left: 21%;
+    box-shadow: 0px 20px 45px -25px #d1d4d4;
+}
+
+.future-card-4 {
+    background-color: #FFEAF9;
+    width: 228px;
+    height: 228px;
+    bottom: 19%;
+    left: 36%;
+    box-shadow: 0px 34px 45px -28px #fc47c85e;
+}
+
+.future-card-5 {
+    background-color: #F5F9FA;
+    width: 180px;
+    height: 180px;
+    bottom: 34%;
+    right: 32%;
+    box-shadow: 0px 20px 45px -25px #d1d4d4;
+}
+
+
+.future-card-6 {
+    background-color: #EEFFF3;
+    width: 228px;
+    height: 228px;
+    bottom: 34%;
+    right: 12%;
+    box-shadow: 0px 20px 45px -25px #73fa9b;
+}
+
+
+.future-card-7 {
+    background-color: #F8F3FF;
+    width: 228px;
+    height: 228px;
+    bottom: 0%;
+    right: 25%;
+    box-shadow: 0px 20px 45px -25px #c399fd;
+}
+
+
+.future-card-img{
+    width: 48px;
+    height: 48px;
+}
+
+.future-card-p{
+    margin-top: 16px;
+}
+
+
+.loan-2-buy{
+    color: #0EC742;
+}
+
+
+
+
+
+/* Gamesta team section */
+.gamesta-section{
+    padding-top: 192px;
+}
+
+.gamesta-triangle{
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleY(-1);
+}
+
+.top-gradient{
+    width: 100%;
+    height: 525px;
+    background: linear-gradient(to bottom, #F5F9FA, #f5f9fa00);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.gamesta-team-card-flex{
+    display: flex;
+    gap: 32px;
+}
+
+.gamesta-teem-card{
+    margin-bottom: 64px;
+}
+
+.jody-taylor-card,
+.james-rodd-card{
+    width: 100%;
+    max-width: 370px;
+}
+
+.gamesta-team-h2{
+    margin-right: 104px;
+    width: 100%;
+    max-width: 366px;
+}
+
+.gamesta-team-img{
+    margin-bottom: 12px;
+}
+
+.gamesta-team-card-span{
+    color: #9BA1A4;
+}
+
+.gamesta-team-p{
+    margin-top: 12px;
+    color: #38484E;
+}
+
+
+.margin-left-108px{
+    margin-left: 108px;
+}
+
+.sanjay-jadhav-card{
+    margin-left: 103px;
+    padding-top: 123px;
+}
+
+.spencer-tarring-p, .david-silvester-p, .sanjay-jadhav-p{
+    width: 100%;
+    max-width: 301px;
+}
+
+
+
+
+
+.advisors-h3{
+    margin-top: 38px;
+    margin-bottom: 46px;
+    margin-left: 108px;
+}
+
+.gamesta-advisor-group{
+    gap: 56px;
+}
+
+.gamesta-advisor-card{
+    width: 100%;
+    max-width: 246px;
+}
+
+.hr{
+    margin: 130px 0;
+    border: none;
+    border-top: 1px solid #D2F0FB;
+    rotate: 6deg;
+}
+
+
+
+
+
+
+/* Partners & Investors section */
+.partners-section{
+    margin-bottom: 62px;
+}
+
+.partners-container{
+    width: 100%;
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+
+.partners-grid{
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 23px;
+}
+
+
+
+
+
+/* GAMESTR Blog */
+.blog-section{
+    margin-bottom: 71px;
+}
+
+.blog-container{
+    width: 100%;
+    max-width: 1174px;
+    margin: 0 auto;
+    padding-top: 114.19px;
+}
+
+.blog-header{
+    max-width: 343px;
+    rotate: -6deg;
+    margin-bottom: 40.91px;
+}
+
+
+.blog-card-group{
+    gap: 32px;
+    margin-bottom: 18px;
+}
+
+.blog-img{
+    margin-bottom: 16px;
+}
+
+.blog-h5{
+    margin-bottom: 8px;
+}
+
+.blog-span{
+    color: #9BA1A4;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+/* Community section */
+.community-section{
+    background-image: url("../assets/images/community-bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 857px;
+    position: relative;
+    z-index: -10;
+}
+
+
+.community-h2{
+    rotate: -6deg;
+    position: absolute;
+    top: 19%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+
+.community-icon-div{
+    width: 135px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5.8px;
+    color: #FFFFFF;
+    rotate: -6deg;
+    position: absolute;
+}
+
+
+.community-icon-twitter{
+    background-color: #4AA0EB;
+    top: -1.7%;
+    left: 47.4%;
+}
+
+
+.community-icon-telegram{
+    background-color: #1A8BD8;
+    top: 32.8%;
+    left: 30%;
+    z-index: -1;
+}
+
+
+.community-icon-youtube{
+    background-color: #F83641;
+    top: 10%;
+    right: 14%;
 }
