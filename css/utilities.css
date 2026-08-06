@@ -45,6 +45,10 @@
 
 
 /* font size */
+.str-font-144px{
+    font-size: 144px;
+}
+
 .str-font-96px{
     font-size: 96px;
 }
@@ -106,6 +110,11 @@
 .str-line-height-130{
     line-height: 130%;
 }
+
+.str-line-height-133{
+    line-height: 133%;
+}
+
 .str-line-height-110infi{
     line-height: 110.00000000000001%;
 }
@@ -141,6 +150,14 @@
 
 .str-flex{
     display: flex;
+}
+
+.str-flex-1{
+    flex: 1;
+}
+
+.str-flex-wrap{
+    flex-wrap: wrap;
 }
 
 .str-flex-center{
@@ -224,4 +241,25 @@
 
 .str-bottom-0{
     bottom: 0;
+}
+
+
+.str-rotate-6deg{
+    rotate: -6deg;
+}
+.str-rotate-3deg{
+    rotate: -3deg;
+}
+
+
+.stick-blue{
+    position: absolute;
+    border: 1px solid var(--primary-sky);
+    rotate: -6deg;
+}
+
+.stick-black{
+    position: absolute;
+    border: 1px solid var(--primary-dark);
+    rotate: -6deg;
 }
