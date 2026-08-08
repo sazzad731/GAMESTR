@@ -576,7 +576,7 @@ img{
 
 .blog-card-group{
     gap: 32px;
-    margin-bottom: 18px;
+    margin-bottom: 89px;
 }
 
 .blog-img{
@@ -603,7 +603,7 @@ img{
     background-image: url("../assets/images/community-bg.png");
     background-repeat: no-repeat;
     background-position: top center;
-    height: 857px;
+    height: 500px;
     position: relative;
     z-index: -10;
 }
@@ -612,7 +612,7 @@ img{
 .community-h2{
     rotate: -6deg;
     position: absolute;
-    top: 19%;
+    top: 33%;
     left: 52%;
     transform: translate(-50%, -50%);
 }
@@ -641,15 +641,15 @@ img{
 
 .community-icon-telegram{
     background-color: #1A8BD8;
-    top: 32.8%;
-    left: 30%;
+    top: 56.8%;
+    left: 30.5%;
     z-index: -1;
 }
 
 
 .community-icon-youtube{
     background-color: #F83641;
-    top: 10%;
+    top: 19%;
     right: 14%;
 }
 
@@ -797,10 +797,85 @@ img{
     margin-bottom: 8px;
 }
 
-.ecosystem-top-p{
+.ecosystem-header-p-group{
+    margin-bottom: 35rem;
+}
+
+.ecosystem-p-1{
     width: 100%;
     max-width: 778px;
     margin-left: 402px;
+}
+
+.ecosystem-p-2{
+    width: 100%;
+    max-width: 404px;
+    margin-left: 702px;
+}
+
+.gsg-main-div{
+    top: 10.5%;
+    left: 32px;
+    z-index: -1;
+}
+
+.ecosystem-gsg-div-1{
+    width: 686px;
+    height: 686px;
+    background: linear-gradient(to right, #F8F6FE, #FDFEFF);
+    border-radius: 50%;
+}
+
+.ecosystem-gsg-div-2{
+    width: 404px;
+    height: 404px;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    background:
+            linear-gradient(to top, #EBE8FC, #FDFEFF) padding-box,
+            linear-gradient(45deg, #571CE3, #00B3E8) border-box;
+}
+
+.the-span{
+    top: 30%;
+    left: 25%;
+}
+
+.gsg-img{
+    bottom: -5%;
+    left: 6%;
+    rotate: 11deg;
+}
+
+.gsg-bottom-p{
+    width: 100%;
+    max-width: 270px;
+    position: absolute;
+    bottom: 8%;
+    left: -1%;
+    text-align: end;
+}
+
+.gsg-selected-text-div{
+    bottom: 22%;
+    left: 0%;
+}
+
+.gsg-selected-p-1{
+    margin-left: 378.75px;
+    width: fit-content;
+}
+
+.gsg-selected-p-2 {
+    margin-left: 547.75px;
+    margin-top: -27px;
+    width: fit-content;
+}
+
+.gsg-selected-p-3 {
+    margin-left: 665.75px;
+    margin-top: -15px;
+    width: fit-content;
 }
 
 .distribution-h3{
@@ -819,6 +894,19 @@ img{
     max-width: 423px;
     margin-left: 41.89px;
     margin-top: 32.27px;
+    position: relative;
+}
+
+.distribution-80-p::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 649.89px;
+    background: #000000;
+    opacity: 10%;
+    top: -255%;
+    right: -6%;
+    rotate: -164.54deg;
 }
 
 .distribution-vertical-line{
@@ -931,13 +1019,13 @@ img{
 
 .left-agency-stick{
     width: 257px;
-    bottom: 14.5%;
+    bottom: 10.5%;
     left: 0%;
 }
 
 .right-agency-stick{
     width: 280px;
-    bottom: 14.5%;
+    bottom: 11.5%;
     right: 0%;
 }
 
@@ -949,6 +1037,10 @@ img{
 
 
 /* Incubation & Advisory section */
+.advisory-section{
+    margin-bottom: 118px;
+}
+
 .advisory-h2{
     margin-left: 137px;
     margin-bottom: 18px;
@@ -969,6 +1061,198 @@ img{
     margin-bottom: 24px;
 }
 
+
+.advisory-services-grid{
+    display: grid;
+    grid-template-columns: 266px 266px;
+    column-gap: 75px;
+    row-gap: 24px;
+}
+
 .advisory-service{
     gap: 12px;
+}
+
+
+
+
+
+
+
+/* BLACK GAMEX CARD section */
+.gamex-bg{
+    background-color: #1B1F21;
+    width: 100%;
+    height: 911px;
+    clip-path: polygon(0% .5%, 100% 13%, 100% 100%, 0% 100%);
+    padding-top: 68px;
+}
+
+
+.gamex-container-div{
+    margin-left: 101px;
+    margin-bottom: 11.81px;
+}
+
+
+.gamex-h2{
+    top: 67%;
+    left: 9%;
+}
+
+.card-h2{
+    top: 135%;
+    left: 25%;
+}
+
+.gamex-container-p{
+    position: absolute;
+    top: 290%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.opensea-a{
+    color: #00B3E8;
+    text-decoration: underline;
+}
+
+.gamex-card-img-div{
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+.gamex-card-img{
+    top: 00%;
+    right: 153.67px;
+    z-index: 1;
+}
+
+
+
+.gamex-left-stick{
+    bottom: 188.67px;
+    left: 0;
+    width: 165px;
+    height: 1px;
+    z-index: 2;
+}
+
+.gamex-right-stick{
+    top: 287.99px;
+    right: 0;
+    width: 165px;
+    height: 1px;
+    z-index: 2;
+}
+
+
+
+.gamex-triangle-1{
+    position: absolute;
+    width: 778px;
+    height: 140px;
+    clip-path: polygon(94% 0%, 100% 100%, -65% 100%);
+    bottom: 0;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+
+.gamex-triangle-2{
+    bottom: 0;
+    z-index: 2;
+    background: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+/* footer section */
+.footer{
+    background-color: #273A41;
+}
+
+.footer-container{
+    width: 100%;
+    max-width: 1304px;
+    margin: 23px auto 0 auto;
+    padding-bottom: 57px;
+}
+
+.footer-container-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container-div-div{
+    width: 100%;
+    max-width: 479px;
+}
+
+
+.footer-ul{
+    gap: 24px;
+}
+
+
+.footer-social-div{
+    gap: 29px;
+}
+
+
+
+.footer-btn{
+    color: #01A590;
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.join-us-div{
+    gap: 16px;
+}
+
+
+.footer-triangle-1{
+    width: 100%;
+    height: 142px;
+    clip-path: polygon(100% 0%, 100% 100%, 10% 100%);
+    background-color: #FFFFFF;
+    transform: scale(-1);
+}
+
+
+.footer-triangle-2{
+    width: 100%;
+    height: 140px;
+    clip-path: polygon(73% 0%, 77% 100%, -15% 100%);
+    background-color: #FFFFFF;
+    transform: scale(-1);
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+/* Technical Roadmap section */
+.technical-h3{
+    margin-bottom: 60px;
+}
+
+
+.roadmap-width{
+    width: 328px;
 }

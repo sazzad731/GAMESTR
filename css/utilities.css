@@ -49,8 +49,16 @@
     font-size: 144px;
 }
 
+.str-font-112px{
+    font-size: 112px;
+}
+
 .str-font-96px{
     font-size: 96px;
+}
+
+.str-font-88px{
+    font-size: 88px;
 }
 
 .str-font-72px{
@@ -66,6 +74,9 @@
 }
 .str-font-36px{
     font-size: 36px;
+}
+.str-font-32px{
+    font-size: 32px;
 }
 .str-font-28px{
     font-size: 28px;
@@ -170,8 +181,16 @@
     align-items: center;
 }
 
+.str-align-end{
+    align-items: end;
+}
+
 .str-justify-between{
     justify-content: space-between;
+}
+
+.str-justify-end{
+    justify-content: end;
 }
 
 .str-flex-col{
@@ -247,8 +266,18 @@
 .str-rotate-6deg{
     rotate: -6deg;
 }
+.str-rotate-5deg{
+    rotate: -5deg;
+}
 .str-rotate-3deg{
     rotate: -3deg;
+}
+
+
+.stick-white{
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    rotate: -6deg;
 }
 
 
