@@ -66,7 +66,7 @@
 }
 
 .str-font-64px{
-    font-size: 64px;
+    font-size: clamp(40px, 10.66vw, 64px);
 }
 
 .str-font-48px{
@@ -85,13 +85,13 @@
     font-size: 24px;
 }
 .str-font-20px{
-    font-size: 20px;
+    font-size: clamp(16px, 4.266vw, 20px);
 }
 .str-font-18px{
     font-size: 18px;
 }
 .str-font-16px{
-    font-size: 16px;
+    font-size: clamp(14px, 3.733vw, 16px);
 }
 .str-font-14px{
     font-size: 14px;
@@ -291,4 +291,10 @@
     position: absolute;
     border: 1px solid var(--primary-dark);
     rotate: -6deg;
+}
+
+
+
+.margin-bottom-12_73px{
+    margin-bottom: 12.73px;
 }

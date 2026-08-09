@@ -97,7 +97,8 @@ img{
     background-image: url("../assets/images/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 732px;
+    background-position: top left;
+    height: clamp(732px, calc(918.2px - 15.52vw), 832px);
 }
 
 
@@ -192,6 +193,7 @@ img{
     border-radius: 6px;
     border: 1px solid #FFFFFF;
     cursor: pointer;
+    gap: 10px;
 }
 
 .macBook{
@@ -225,6 +227,10 @@ img{
     z-index: 21;
 }
 
+.mobile-char{
+    display: none;
+}
+
 
 
 
@@ -246,10 +252,6 @@ img{
     padding-left: 273px;
 }
 
-.selected-text-group{
-    width: 185.73px;
-}
-
 .gamesta-dapp{
     margin-bottom: 11px;
 }
@@ -260,10 +262,18 @@ img{
     margin-bottom: 56px;
 }
 
+.gamesta-dapp-selected-p-div{
+    right: -26%;
+}
+
+.launching-in-p{
+    width: fit-content;
+}
 
 .q4-2022{
-    right: 0px;
-    top: 29px;
+    margin-left: 71px;
+    margin-top: -7px;
+    width: fit-content;
 }
 
 .gamesta-dapp-left-line {
@@ -423,6 +433,191 @@ img{
 .loan-2-buy{
     color: #0EC742;
 }
+
+
+
+
+
+
+/* Technical Roadmap section */
+.technical-roadmap-section {
+    width: 100%;
+    max-width: 1174px;
+    margin: 0 auto 77px auto;
+}
+
+.technical-h3 {
+    margin-bottom: 60px;
+}
+
+
+.sky-roadmap-year {
+    background-color: var(--primary-sky);
+    width: fit-content;
+    padding: 17.34px 20.5px 11.66px;
+    border-radius: 12.97px 12.97px 0px 0px;
+    color: #FFFFFF;
+}
+
+.sky-roadmap-content {
+    width: 328px;
+    border: 2px solid var(--primary-sky);
+    padding: 19.46px 17.54px 19.54px 19.46px;
+    color: var(--primary-sky);
+    border-radius: 0px 12.97px 12.97px 12.97px;
+    background-color: #EBF9FF;
+}
+
+.roadmap-version {
+    padding: 9.34px 15px 3.66px;
+    background-color: #38484E;
+    border-radius: 0px 12.97px 0px 0px;
+    color: #FFFFFF;
+    margin-bottom: -2px;
+}
+
+.roadmap-margin-bottom-25px {
+    margin-bottom: 25.95px;
+}
+
+
+
+
+.right-arrow {
+    margin-bottom: 62px;
+    margin-right: 2px;
+    align-self: flex-end;
+}
+
+
+.green-blue-bottom-arrow {
+    margin-left: 87px;
+}
+
+
+
+.green-roadmap-year {
+    background-color: #0EC742;
+    width: fit-content;
+    padding: 17.34px 20.5px 11.66px;
+    border-radius: 12.97px 12.97px 0px 0px;
+    color: #FFFFFF;
+}
+
+.roadmap-green-text {
+    color: #0EC742;
+}
+
+
+.green-roadmap-content {
+    width: 328px;
+    border: 2px solid #0EC742;
+    background-color: #EEFFF3;
+    padding: 19.46px 17.54px 19.54px 19.46px;
+    border-radius: 0px 12.97px 12.97px 12.97px;
+}
+
+.roadmap-content-h5 {
+    margin-bottom: 3.24px;
+}
+
+
+
+.indigo-roadmap-year {
+    background-color: #5F0EC7;
+    width: fit-content;
+    padding: 17.34px 20.5px 11.66px;
+    border-radius: 12.97px 12.97px 0px 0px;
+    color: #FFFFFF;
+}
+
+.roadmap-indigo-text {
+    color: #5F0EC7;
+}
+
+
+.indigo-roadmap-content {
+    width: 328px;
+    border: 2px solid #5F0EC7;
+    background-color: #F8F3FF;
+    padding: 19.46px 17.54px 19.54px 19.46px;
+    border-radius: 0px 12.97px 12.97px 12.97px;
+}
+
+
+.green-indigo-right-arrow {
+    margin-bottom: 50px;
+}
+
+.indigo-orrange-right-arrow {
+    margin-bottom: 50px;
+}
+
+
+
+
+.orange-roadmap-year {
+    background-color: #FF7A00;
+    width: fit-content;
+    padding: 17.34px 20.5px 11.66px;
+    border-radius: 12.97px 12.97px 0px 0px;
+    color: #FFFFFF;
+}
+
+.roadmap-orange-text {
+    color: #FF7A00;
+}
+
+
+.orange-roadmap-content {
+    width: 328px;
+    border: 2px solid #FF7A00;
+    background-color: #FFF9F1;
+    padding: 19.46px 17.54px 19.54px 19.46px;
+    border-radius: 0px 12.97px 12.97px 12.97px;
+}
+
+
+
+.orrange-green-bottom-arrow {
+    margin-left: 87px;
+    margin-top: -95px;
+}
+
+
+.green-pink-right-arrow {
+    margin-top: 10px;
+}
+
+
+.pink-roadmap-year {
+    background-color: #D242AA;
+    width: fit-content;
+    padding: 17.34px 20.5px 11.66px;
+    border-radius: 12.97px 12.97px 0px 0px;
+    color: #FFFFFF;
+}
+
+.roadmap-pink-text {
+    color: #D242AA;
+}
+
+
+.pink-roadmap-content {
+    width: 328px;
+    border: 2px solid #D242AA;
+    background-color: #FFEAF9;
+    padding: 19.46px 17.54px 19.54px 19.46px;
+    border-radius: 0px 12.97px 12.97px 12.97px;
+}
+
+
+.or-p {
+    color: #38484E;
+    margin-bottom: 12.97px;
+}
+
+
 
 
 
@@ -1239,20 +1434,4 @@ img{
     transform: scale(-1);
     top: 0;
     right: 0;
-}
-
-
-
-
-
-
-
-/* Technical Roadmap section */
-.technical-h3{
-    margin-bottom: 60px;
-}
-
-
-.roadmap-width{
-    width: 328px;
 }

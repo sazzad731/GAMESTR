@@ -17,6 +17,7 @@
 
     .nav-ul.active{
         top: 62px !important;
+        z-index: 50;
     }
 
     .nav-ul-li-a{
@@ -33,5 +34,247 @@
 
     .menu-btn{
         display: block !important;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .container{
+        padding: 0px 16px;
+    }
+    
+    
+    /* hero section */
+    .bg-img-div{
+        background-position: top center !important;
+    }
+    
+    .header{
+        margin-bottom: 48px !important;
+    }
+    
+    .hero-h1{
+        margin-left: 0px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .buy-gsg{
+        line-height: 18px !important;
+    }
+
+    .buy-gsg-btns{
+        margin-bottom: 24px !important;
+    }
+
+    .buy-gsg-btn{
+        line-height: 20px !important;
+    }
+
+    .hero-left-div{
+        padding-left: 0px !important;
+    }
+
+    .hero-left-div-p{
+        margin-bottom: 24px !important;
+        line-height: 20px !important;
+    }
+
+    .join-our-community{
+        font-weight: 500 !important;
+        line-height: 18px;
+    }
+
+    .hero-social-btn{
+        padding: 12px 10.17px !important;
+    }
+
+    .social-icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-content-div{
+        flex-direction: column;
+    }
+
+
+    .characters-img-div{
+        margin-top: 32px;
+    }
+
+
+    .macBook{
+        width: 313.87px;
+        transform: translate(-50%, -50%) !important;
+        top: 162% !important;
+        left: 50%;
+    }
+
+    .top-characters{
+        width: 250px;
+        top: 119% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bodyguard{
+        width: 74.36px;
+        height: 74.36px;
+        right: 56% !important;
+        top: 110% !important;
+    }
+
+    .left-char{
+        width: 58.39px;
+        height: 57.94px;
+        bottom: -78.8% !important;
+        left: -4% !important;
+        z-index: 1;
+    }
+
+    .right-char{
+        width: 55px;
+        top: 144% !important;
+        right: -10px !important;
+    }
+
+    .mobile-char{
+        display: block !important;
+        position: absolute;
+        left: -6%;
+        bottom: -82%;
+    }
+
+    .triangle-shape {
+        height: 105px;
+        clip-path: polygon(100% 0%, 100% 100%, -168% 100%);
+        z-index: 2;
+    }
+
+
+
+
+    /* Gamesta dApp */
+    .gamesta-dapp-section{
+        padding-top: 79.5px !important;
+        padding-bottom: 140px !important;
+    }
+    
+    .gamesta-dapp-header{
+        padding-left: 0 !important;
+    }
+
+    .gamesta-dapp{
+        text-align: center;
+        margin-bottom: 8px !important;
+    }
+
+    .gamesta-dapp-p{
+        font-size: 16px !important;
+        text-align: center;
+        line-height: 20px !important;
+        margin-bottom: 48px !important;
+    }
+
+    .gamesta-dapp-selected-p-div{
+        top: 15%;
+        right: 7% !important;
+    }
+
+    .launching-in-p,
+    .q4-2022{
+        font-size: 8.34px;
+        padding: 5px 9px;
+    }
+
+    .q4-2022{
+        margin-left: 40px !important;
+    }
+
+    .gamesta-card-grid{
+        padding-left: 0px !important;
+        grid-template-columns: 1fr !important;
+        row-gap: 32px !important;
+    }
+
+    .gamesta-card{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .gamesta-card-content-div{
+        text-align: center;
+    }
+
+    .gamesta-card-h3{
+        font-size: 24px !important;
+        line-height: 18px;
+        margin-bottom: 8px !important;
+    }
+
+    .gamesta-card-content-p{
+        line-height: 18px;
+    }
+
+    .gamesta-dapp-left-line{
+        width: 56.25px !important;
+        rotate: -15deg !important;
+        top: 110px !important;
+    }
+
+
+
+
+
+
+
+    /* future application section */
+    .future-heading-div{
+        margin-left: 0px !important;
+        width: 201px;
+    }
+    
+    .future-h2{
+        font-size: 30px !important;
+        margin-bottom: 13px !important;
+    }
+
+    .future-btn{
+        padding: 8px !important;
+        font-size: 12px !important;
+    }
+
+    .future-card{
+        padding: 10px !important;
+        border-radius: 12.88px !important;
+    }
+    
+    .future-card-p{
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+
+    .future-card-1{
+        width: 89px !important;
+        height: 64px !important;
+        top: 6px !important;
+        right: 11% !important;
+        box-shadow: 0px 12px 16px -12px #27beff5e !important;
+    }
+
+    .earn2buy-img{
+        width: 15.46px !important;
+        height: 15.46px !important;
+    }
+
+    .future-card-2{
+        width: 125px !important;
+        height: 70px !important;
+    }
+
+    .gamesta-tranding-fund{
+        width: 20px !important;
+        height: 20px !important;
     }
 }
