@@ -230,9 +230,15 @@
 
 
     /* future application section */
+    .future-section{
+        margin-top: 0px !important;
+        height: 400px !important;
+    }
+    
     .future-heading-div{
         margin-left: 0px !important;
         width: 201px;
+        align-items: start !important;
     }
     
     .future-h2{
@@ -271,10 +277,348 @@
     .future-card-2{
         width: 125px !important;
         height: 70px !important;
+        bottom: 7% !important;
+        left: 6% !important;
+        box-shadow: 0px 12px 16px -15px #27beff85 !important;
     }
 
     .gamesta-tranding-fund{
         width: 20px !important;
         height: 20px !important;
+    }
+
+    .future-card-3{
+        width: 80px !important;
+        height: 58px !important;
+        bottom: 55% !important;
+        left: 10% !important;
+        box-shadow: 0px 12px 16px -12px #d1d4d4 !important;
+    }
+
+    .g-pad-img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .future-card-4{
+        width: 126px !important;
+        height: 85px !important;
+        bottom: 30% !important;
+        left: 22% !important;
+        box-shadow: 0px 12px 16px -12px #fc47c85e !important;
+    }
+
+    .new-game-img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .future-card-5{
+        width: 90px !important;
+        height: 53px !important;
+        bottom: 56% !important;
+        right: 32% !important;
+        box-shadow: 0px 12px 16px -12px #d1d4d4 !important;
+    }
+
+    .g-avatar-img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .future-card-6{
+        width: 92px !important;
+        height: 74px !important;
+        box-shadow: 0px 12px 16px -12px #73fa9b8a !important;
+        bottom: 60% !important;
+        right: 4% !important;
+    }
+
+    .loan2buy-img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .future-card-7{
+        width: 138px !important;
+        height: 88.46px !important;
+        bottom: 24% !important;
+        right: 4% !important;
+        box-shadow: 0px 15px 19px -18px #c399fdba !important;
+    }
+
+    .gamesta-apisdk-img{
+        width: 15.46px !important;
+        height: 15.46px !important;
+    }
+
+
+
+
+
+    /* Play 2 Earn */
+    .play2earn-heading-div{
+        margin-bottom: 23.8px !important;
+    }
+    
+    .play2earn-p{
+        margin-left: 7px !important;
+    }
+
+    .play2earn-h2{
+        left: 60.81px !important;
+    }
+
+    .play2earn-top-h4{
+        margin-left: 0 !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .play2earn-h4-p{
+        margin-left: 23px !important;
+        line-height: 18px !important;
+        margin-bottom: 52px !important;
+    }
+
+
+    .play2earn-card-grid{
+        margin-left: 0px !important;
+        grid-template-columns: 1fr !important;
+        row-gap: 48px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .play2earn-card{
+        flex-direction: column;
+    }
+
+    .play2earn-card-p{
+        font-size: 16px !important;
+    }
+
+    .play2earn-flex-end{
+        align-items: end;
+    }
+
+    .play2earn-card-content-flex-end{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: end;
+    }
+
+    .nfts-card-mobile,
+    .token-dynamics-card-mobile {
+        display: flex !important;
+    }
+
+    .empowerment-card, .scholarships-card{
+        display: none;
+    }
+
+    .play2earn-blue-stick{
+        width: 99px !important;
+        top: 2% !important;
+    }
+
+    .play2earn-blue-stick-mobile {
+        display: block !important;
+        width: 188px;
+        top: 12%;
+        left: -5%;
+    }
+
+    .play2earn-black-stick{
+        display: none;
+    }
+
+    .play-2-earn-games{
+        margin-left: 0px !important;
+    }
+
+
+
+
+    .hr{
+        margin: 55px;
+    }
+
+
+
+
+    /* Ecosystem & Treasury section */
+    .ecosystem-h2{
+        margin-left: 0 !important;
+        font-size: 40px !important;
+    }
+    .treasuty-h2{
+        margin-left: 93px !important;
+        font-size: 40px !important;
+        margin-bottom: 23.97px !important;
+    }
+
+    .ecosystem-p-1{
+        margin-left: 0 !important;
+        font-size: 18px !important;
+        margin-bottom: 28px;
+    }
+
+    .ecosystem-p-2{
+        margin-left: 71px !important;
+        font-size: 16px !important;
+    }
+
+    .ecosystem-gsg-div-1{
+        width: 184.99px !important;
+        height: 184.99px !important;
+    }
+
+    .ecosystem-gsg-div-2{
+        width: 108.94px !important;
+        height: 108.94px !important;
+    }
+
+    .the-span{
+        font-size: 8px;
+    }
+
+    .gsg-p{
+        font-size: 24px !important;
+    }
+
+    .gsg-img{
+        width: 21.84px !important;
+        height: 21.84px !important;
+    }
+
+    .gsg-main-div{
+        top: 27% !important;
+        left: 16px !important;
+    }
+
+    .ecosystem-gsg-div-2{
+        border: 2px solid transparent !important;
+    }
+
+    .gsg-img{
+        bottom: -2% !important;
+        left: 10% !important;
+    }
+
+    .gsg-bottom-p{
+        bottom: -26% !important;
+        width: 207px !important;
+        left: 0px !important;
+        font-size: 12px !important;
+    }
+
+    .gsg-selected-p-1,.gsg-selected-p-2,.gsg-selected-p-3{
+        font-size: 12px !important;
+    }
+
+    .gsg-selected-p-1{
+        padding: 3px 9px 3px 4px;
+        margin-left: 102.75px !important;
+    }
+
+    .gsg-selected-p-2{
+        padding: 3px 11px 3px 4px;
+        margin-left: 144px !important;
+        margin-top: -10px !important;
+    }
+
+    .gsg-selected-p-3{
+        padding: 3px 16px 3px 4px;
+        margin-left: 173px !important;
+        margin-top: -8px !important;
+    }
+
+    .ecosystem-header-p-group{
+        margin-bottom: 20rem !important;
+    }
+
+
+
+
+    /* Distribution of game rewards ($GSG): */
+    .distribution-h3{
+        font-size: 24px !important;
+        margin-left: 0px !important;
+        text-align: center;
+        width: 343px;
+        margin: 60px auto 34px auto !important;
+    }
+
+    .distribution-div{
+        margin-left: 0px !important;
+        flex-direction: column;
+    }
+
+    .distribution-number80{
+        width: 100%;
+    }
+
+    .distribution-80-p{
+        margin-left: 0px !important;
+        font-size: 16px;
+        margin-top: 28px !important;
+    }
+
+    .distribution-80-p::after {
+        width: 649.89px !important;
+        height: 1px !important;
+        top: 160% !important;
+        rotate: 174.68deg !important;
+    }
+    
+    .remaining-span{
+        margin-left: 40.35px !important;
+        margin-bottom: -25px !important;
+        font-size: 20px !important;
+    }
+
+    .remaining-20-img{
+        margin-left: 0px !important;
+        width: 100%;
+        margin-bottom: 24px !important;
+    }
+
+    .remaining-20-div-p{
+        margin-left: 0px !important;
+        font-size: 20px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .all-distri-number-div{
+        margin-left: 0px !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 54px !important;
+    }
+
+    .number-div-2, .number-div-4{
+        width: 154px !important;
+    }
+
+    .agency-bg{
+        width: 100%;
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    .agency-logo{
+        width: 141.11px;
+        top: 36px !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+
+    .agency-h2{
+        font-size: 67.01px !important;
     }
 }

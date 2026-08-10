@@ -862,6 +862,11 @@ img{
 
 
 /* Play 2 Earn section */
+.play2earn-heading-div{
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+}
 
 .play2earn-p{
     color: transparent;
@@ -883,7 +888,6 @@ img{
 
 
 .play2earn-h4-p{
-    width: 100%;
     max-width: 586px;
     margin-left: 503px;
     margin-bottom: 56px;
@@ -903,6 +907,10 @@ img{
 
 .play2earn-card{
     gap: 24px;
+}
+
+.nfts-card-mobile, .token-dynamics-card-mobile{
+    display: none;
 }
 
 .play2earn-card-img{
@@ -926,6 +934,15 @@ img{
 
 .play-2-earn-games{
     margin-left: 101px;
+}
+
+.play2earn-games-div{
+    overflow-x: auto;
+    gap: 32px;
+}
+
+.play2earn-games-div::-webkit-scrollbar{
+    display: none;
 }
 
 .play2earn-games-img-1{
@@ -967,6 +984,10 @@ img{
     right: 0%;
 }
 
+.play2earn-blue-stick-mobile{
+    display: none;
+}
+
 .play2earn-black-stick{
     width: 222px;
     left: 0;
@@ -1003,7 +1024,6 @@ img{
 }
 
 .ecosystem-p-2{
-    width: 100%;
     max-width: 404px;
     margin-left: 702px;
 }
@@ -1139,6 +1159,24 @@ img{
     gap: 53px;
     width: 100%;
     max-width: 669.37px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.number-div-1{
+    width: 90.87px;
+}
+
+.number-div-2{
+    width: 124.14px;
+}
+
+.number-div-3{
+    width: 132.94px;
+}
+
+.number-div-4{
+    width: 162.43px;
 }
 
 .str-line-height-133{
