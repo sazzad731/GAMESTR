@@ -772,10 +772,21 @@ img{
 .blog-card-group{
     gap: 32px;
     margin-bottom: 89px;
+    flex-wrap: wrap;
+}
+
+.blog-card{
+    width: 100%;
+    max-width: 370px;
 }
 
 .blog-img{
     margin-bottom: 16px;
+    width: 100%;
+}
+
+.blog-h2{
+    margin-top: 20px;
 }
 
 .blog-h5{
@@ -1262,6 +1273,10 @@ img{
     right: 0%;
 }
 
+.agency-btn{
+    display: none;
+}
+
 
 
 
@@ -1290,7 +1305,7 @@ img{
 }
 
 .advisory-services-span{
-    display: inline-block;
+    display: block;
     margin-bottom: 24px;
 }
 
@@ -1343,6 +1358,7 @@ img{
     top: 290%;
     left: 30%;
     transform: translate(-50%, -50%);
+    max-width: 441.99px;
 }
 
 .opensea-a{
@@ -1357,7 +1373,7 @@ img{
 }
 
 .gamex-card-img{
-    top: 00%;
+    top: 0%;
     right: 153.67px;
     z-index: 1;
 }
@@ -1396,6 +1412,22 @@ img{
     bottom: 0;
     z-index: 2;
     background: #FFFFFF;
+}
+
+
+
+.community-left-stick{
+    position: absolute;
+    width: 387px;
+    top: 25%;
+    left: 0%;
+}
+
+.community-right-stick{
+    position: absolute;
+    width: 250px;
+    bottom: 37%;
+    right: 0%;
 }
 
 
@@ -1439,7 +1471,6 @@ img{
 }
 
 
-
 .footer-btn{
     color: #01A590;
     padding: 12px 16px;
@@ -1447,6 +1478,10 @@ img{
     border-radius: 6px;
     border: none;
     cursor: pointer;
+}
+
+.footer-btn-mobile {
+    display: none;
 }
 
 
