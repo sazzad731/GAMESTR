@@ -147,31 +147,33 @@ img{
 
 /* hero section */
 
-.hero-h1{
+/* hero section (আপনার আগের স্টাইলগুলো ঠিক থাকবে) */
+
+.hero-h1 {
     margin-bottom: 40px;
     margin-left: 100px;
 }
 
-.hero-left-div{
+.hero-left-div {
     padding-left: 168px;
 }
 
-.hero-left-div-p{
+.hero-left-div-p {
     width: 100%;
     max-width: 442px;
     margin-bottom: 44px;
 }
 
-.buy-gsg{
+.buy-gsg {
     margin-bottom: 8px;
 }
 
-.buy-gsg-btns{
+.buy-gsg-btns {
     gap: 12px;
     margin-bottom: 41px;
 }
 
-.buy-gsg-btn{
+.buy-gsg-btn {
     padding: 16px 24px;
     cursor: pointer;
     border: none;
@@ -179,15 +181,15 @@ img{
     border-radius: 8px;
 }
 
-.join-our-community{
+.join-our-community {
     margin-bottom: 8px;
 }
 
-.hero-social-btn-group{
+.hero-social-btn-group {
     gap: 12px;
 }
 
-.hero-social-btn{
+.hero-social-btn {
     padding: 16px;
     background: none;
     border-radius: 6px;
@@ -196,44 +198,59 @@ img{
     gap: 10px;
 }
 
-.macBook{
-    top: 120px;
-    right: 0;
-    transform: translateX(-7%);
+
+.macBook {
+    anchor-name: --laptop-anchor;
+    width: clamp(300px, 45vw, 800px);
+    height: auto;
     z-index: 20;
+    position: absolute;
+    right: 5%;
+    top: 98%;
+    transform: translateY(-50%);
 }
 
-.top-characters{
-    top: -21%;
-    right: 9%;
+
+.characters-img-div img:not(.macBook) {
+    position: absolute;
+    position-anchor: --laptop-anchor;
+    height: auto;
 }
 
-.bodyguard{
-    right: 30%;
-    top: -8%;
+.bodyguard {
+    top: anchor(top);
+    left: anchor(left);
+    transform: translate(67%, -90%);
     z-index: 21;
+    width: clamp(80px, 12vw, 220px);
 }
 
-
-.left-char{
-    bottom: -28.8%;
-    left: 42%;
+.top-characters {
+    bottom: anchor(top);
+    left: anchor(center);
+    transform: translate(-50%, 18%);
+    z-index: 19;
+    width: clamp(100px, 36vw, 525px);
 }
 
+.left-char {
+    bottom: anchor(bottom);
+    right: anchor(left);
+    transform: translate(50%, -74%);
+    width: clamp(60px, 9vw, 180px);
+}
 
-.right-char{
-    top: 60%;
-    right: 9px;
+.right-char {
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(-61%, -237%);
     z-index: 21;
+    width: clamp(60px, 7vw, 180px);
 }
 
-.mobile-char{
+.mobile-char {
     display: none;
 }
-
-
-
-
 
 
 
@@ -323,8 +340,9 @@ img{
 }
 
 .future-heading-div{
-    max-width: 643px;
-    margin-left: 137px;
+    anchor-name: --future-heading-div;
+    max-width: clamp(201px, calc(-217.108px + 59.73vw), 643px);
+    margin-left: clamp(0px, calc(-129.595px + 18.514vw), 137px);
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -333,7 +351,8 @@ img{
 
 
 .future-btn{
-    padding: 20px 24px;
+    /* padding: 20px 24px; */
+    padding: clamp(8px, calc(-3.351px + 1.622vw), 20px) clamp(8px, calc(-7.135px + 2.162vw), 24px);
     border-radius: 6px;
     cursor: pointer;
     border: none;
@@ -347,37 +366,54 @@ img{
 
 
 .future-card{
-    padding: 32px;
-    border-radius: 40px;
+    /* padding: 32px; */
+    border-radius: clamp(12.88px, calc(-12.774px + 3.665vw), 40px);
     display: flex;
     flex-direction: column;
     justify-content: end;
+    position: absolute;
+    position-anchor: --future-heading-div;
 }
 
-.future-card-1{
+
+.future-card-1 {
     background-color: #EBF9FF;
-    width: 199px;
-    height: 199px;
-    top: 22px;
-    right: 23%;
+    width: clamp(89px, 20vw, 199px);
+    height: clamp(64px, 17vw, 199px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(35%, -130%);
     box-shadow: 0px 25px 34px -32px #27beffb7;
+    padding-left: clamp(10px, calc(-19.324px + 4.189vw), 41px);
+    padding-bottom: clamp(10px, calc(-18.378px + 4.054vw), 40px);
+}
+
+.earn2buy-img{
+    width: clamp(15.46px, 4vw, 48px);
+    height: clamp(15.46px, 4vw, 48px);
 }
 
 .future-card-2 {
     background-color: #EBF9FF;
-    width: 193px;
-    height: 193px;
-    bottom: 6%;
-    left: 15%;
+    width: clamp(120px, 14vw, 193px);
+    height: clamp(62px, 14vw, 193px);
+    top: anchor(bottom);
+    right: anchor(left);
+    transform: translate(146%, 118%);
     box-shadow: 0px 25px 34px -32px #27beffb7;
+    padding-left: clamp(10px, calc(-10.811px + 2.973vw), 32px);
+    padding-bottom: clamp(5px, calc(-20.541px + 3.649vw), 32px);
 }
 
 .future-card-3 {
     background-color: #F5F9FA;
-    width: 180px;
-    height: 180px;
-    bottom: 38%;
-    left: 21%;
+    width: clamp(80px, calc(-14.595px + 13.514vw), 180px);
+    height: clamp(58px, calc(-57.405px + 16.486vw), 180px);
+    top: anchor(bottom);
+    right: anchor(left);
+    transform: translate(187%, 5%);
+    padding-left: clamp(6px, calc(-16.703px + 3.243vw), 30px);
+    padding-bottom: clamp(6px, calc(-18.595px + 3.514vw), 32px);
     box-shadow: 0px 20px 45px -25px #d1d4d4;
 }
 
@@ -419,14 +455,20 @@ img{
     box-shadow: 0px 20px 45px -25px #c399fd;
 }
 
+.gamesta-apisdk-img {
+    width: clamp(15.46px, 4vw, 20px);
+    height: clamp(15.46px, 4vw, 20px);
+}
+
 
 .future-card-img{
-    width: 48px;
-    height: 48px;
+    width: clamp(20px, 4vw, 48px);
+    height: clamp(20px, 4vw, 48px);
 }
 
 .future-card-p{
-    margin-top: 16px;
+    margin-top: clamp(5px, calc(-5.405px + 1.486vw), 16px);
+    font-size: clamp(12px, 2vw, 20px);
 }
 
 
@@ -646,57 +688,88 @@ img{
     z-index: -2;
 }
 
-.gamesta-team-card-flex{
-    display: flex;
-    gap: 32px;
+
+
+/* Container Grid Layout */
+.gamesta-team-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: start;
 }
 
-.gamesta-teem-card{
-    margin-bottom: 64px;
-}
 
-.jody-taylor-card,
-.james-rodd-card{
-    width: 100%;
-    max-width: 370px;
-}
-
-.gamesta-team-h2{
+.gamesta-team-h2 {
+    grid-column: 1;
+    grid-row: 1;
     margin-right: 104px;
     width: 100%;
     max-width: 366px;
 }
 
-.gamesta-team-img{
+.jody-taylor-card {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 46%;
+}
+
+.james-rodd-card {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* Grid Column 2: Spencer -> David */
+.spencer-tarring-card {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.david-silvester-card {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: -72%;
+}
+
+/* Grid Column 3: Sanjay */
+.sanjay-jadhav-card {
+    grid-column: 3;
+    grid-row: 1;
+    padding-top: 123px;
+}
+
+
+.gamesta-teem-card {
+    margin-bottom: 64px;
+}
+
+.jody-taylor-card,
+.james-rodd-card {
+    width: 100%;
+    max-width: 370px;
+}
+
+.gamesta-team-img {
     margin-bottom: 12px;
 }
 
-.gamesta-team-card-span{
+.gamesta-team-card-span {
     color: #9BA1A4;
 }
 
-.gamesta-team-p{
+.gamesta-team-p {
     margin-top: 12px;
     color: #38484E;
 }
 
-
-.margin-left-108px{
+.margin-left-108px {
     margin-left: 108px;
 }
 
-.sanjay-jadhav-card{
-    margin-left: 103px;
-    padding-top: 123px;
-}
-
-.spencer-tarring-p, .david-silvester-p, .sanjay-jadhav-p{
+.spencer-tarring-p,
+.david-silvester-p,
+.sanjay-jadhav-p {
     width: 100%;
     max-width: 301px;
 }
-
-
-
 
 
 .advisors-h3{
@@ -707,6 +780,7 @@ img{
 
 .gamesta-advisor-group{
     gap: 56px;
+    flex-wrap: wrap;
 }
 
 .gamesta-advisor-card{
