@@ -46,7 +46,7 @@
 
 /* font size */
 .str-font-144px{
-    font-size: clamp(45.32px, 12.08vw, 144px);
+    font-size: clamp(45.32px, calc(10.574px + 9.266vw), 144px);
 }
 
 .str-font-112px{
@@ -54,7 +54,7 @@
 }
 
 .str-font-96px{
-    font-size: clamp(30px, calc(-32.432px + 8.919vw), 96px);
+    font-size: clamp(30px, calc(6.761px + 6.197vw), 96px);
 }
 
 .str-font-88px{
@@ -66,7 +66,7 @@
 }
 
 .str-font-64px{
-    font-size: clamp(40px, 10.66vw, 64px);
+    font-size: clamp(40px, calc(31.549px + 2.254vw), 64px);
 }
 
 .str-font-48px{

@@ -147,8 +147,6 @@ img{
 
 /* hero section */
 
-/* hero section (আপনার আগের স্টাইলগুলো ঠিক থাকবে) */
-
 .hero-h1 {
     margin-bottom: 40px;
     margin-left: 100px;
@@ -201,7 +199,7 @@ img{
 
 .macBook {
     anchor-name: --laptop-anchor;
-    width: clamp(300px, 45vw, 800px);
+    width: clamp(313.87px, calc(182.134px + 35.13vw), 688px);
     height: auto;
     z-index: 20;
     position: absolute;
@@ -218,11 +216,11 @@ img{
 }
 
 .bodyguard {
-    top: anchor(top);
-    left: anchor(left);
-    transform: translate(67%, -90%);
+    bottom: anchor(top);
+    right: anchor(left);
+    transform: translate(178%, 10%);
     z-index: 21;
-    width: clamp(80px, 12vw, 220px);
+    width: clamp(80px, calc(47.254px + 8.732vw), 173px);
 }
 
 .top-characters {
@@ -243,7 +241,7 @@ img{
 .right-char {
     top: anchor(bottom);
     left: anchor(right);
-    transform: translate(-61%, -237%);
+    transform: translate(-65%, -245%);
     z-index: 21;
     width: clamp(60px, 7vw, 180px);
 }
@@ -333,7 +331,159 @@ img{
 
 
 /* future applications section */
-.future-section{
+.future-section {
+    height: 745px;
+    margin-bottom: 144px;
+    margin-top: 50px;
+}
+
+.future-heading-div {
+    anchor-name: --future-heading-div;
+    max-width: clamp(201px, calc(45.366px + 41.502vw), 643px);
+    margin-left: clamp(0px, calc(-48.239px + 12.864vw), 137px);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+}
+
+
+.future-btn {
+    padding: clamp(8px, calc(3.775px + 1.127vw), 20px) clamp(8px, calc(2.366px + 1.502vw), 24px);
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #06C5C1, #009FEA);
+    box-shadow: 0 7px 12px rgb(0 179 232 / 19%);
+}
+
+
+.future-h2 {
+    margin-bottom: clamp(13px, calc(7.366px + 1.502vw), 29px);
+}
+
+
+.future-card {
+    border-radius: clamp(12.88px, calc(3.331px + 2.546vw), 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    position-anchor: --future-heading-div;
+}
+
+
+.future-card-1 {
+    background-color: #EBF9FF;
+    width: clamp(89px, calc(50.268px + 10.329vw), 199px);
+    height: clamp(64px, calc(16.465px + 12.676vw), 199px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(clamp(27px, calc(8.338px + 4.977vw), 80px), clamp(-255px, calc(-48.127px - 14.366vw), -102px));
+    box-shadow: 0px 25px 34px -32px #27beffb7;
+    padding-left: clamp(10px, calc(-0.916px + 2.911vw), 41px);
+    padding-bottom: clamp(10px, calc(-0.563px + 2.817vw), 40px);
+}
+
+.earn2buy-img {
+    width: clamp(15.46px, calc(4.002px + 3.055vw), 48px);
+    height: clamp(15.46px, calc(4.002px + 3.055vw), 48px);
+}
+
+.future-card-2 {
+    background-color: #EBF9FF;
+    width: clamp(120px, calc(94.296px + 6.854vw), 193px);
+    height: clamp(62px, calc(15.873px + 12.30vw), 193px);
+    top: anchor(bottom);
+    right: anchor(left);
+    transform: translate(clamp(122px, calc(69.887px + 13.897vw), 270px), clamp(185px, calc(169.859px + 4.038vw), 228px));
+    box-shadow: 0px 25px 34px -32px #27beffb7;
+    padding-left: clamp(10px, calc(2.254px + 2.066vw), 32px);
+    padding-bottom: clamp(5px, calc(-4.507px + 2.535vw), 32px);
+}
+
+.future-card-3 {
+    background-color: #F5F9FA;
+    width: clamp(80px, calc(44.789px + 9.39vw), 180px);
+    height: clamp(58px, calc(15.042px + 11.455vw), 180px);
+    top: anchor(bottom);
+    right: anchor(left);
+    transform: translate(clamp(109px, calc(31.887px + 20.563vw), 328px), clamp(10px, calc(17.396px - 0.514vw), 15.47px));
+    padding-left: clamp(6px, calc(-2.451px + 2.254vw), 30px);
+    padding-bottom: clamp(6px, calc(-3.155px + 2.441vw), 32px);
+    box-shadow: 0px 20px 45px -25px #d1d4d4;
+}
+
+.future-card-4 {
+    background-color: #FFEAF9;
+    width: clamp(117px, calc(77.915px + 10.423vw), 228px);
+    height: clamp(77px, calc(23.831px + 14.178vw), 228px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(clamp(-287px, calc(-76.07px + -14.648vw), -131px), clamp(90px, calc(84.718px + 1.408vw), 105px));
+    padding-left: clamp(9px, calc(0.901px + 2.16vw), 32px);
+    padding-bottom: clamp(8px, calc(-0.451px + 2.254vw), 32px);
+    box-shadow: 0px 34px 45px -28px #fc47c85e;
+}
+
+.future-card-5 {
+    background-color: #F5F9FA;
+    width: clamp(86px, calc(52.901px + 8.826vw), 180px);
+    height: clamp(53px, calc(8.282px + 11.925vw), 180px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(-36px, clamp(12px, calc(9.183px + 0.751vw), 20px));
+    padding-left: clamp(8px, calc(-2.916px + 2.911vw), 39px);
+    padding-bottom: clamp(8px, calc(-3.268px + 3.005vw), 40px);
+    box-shadow: 0px 20px 45px -25px #d1d4d4;
+}
+
+
+.future-card-6 {
+    background-color: #EEFFF3;
+    width: clamp(80px, calc(27.887px + 13.897vw), 228px);
+    height: clamp(74px, calc(19.775px + 14.46vw), 228px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(clamp(62px, calc(23.268px + 10.329vw), 172px), -25px);
+    padding-left: clamp(6px, calc(-5.972px + 3.192vw), 40px);
+    padding-bottom: clamp(8px, calc(-3.268px + 3.005vw), 40px);
+    box-shadow: 0px 20px 45px -25px #73fa9b;
+}
+
+
+.future-card-7 {
+    background-color: #F8F3FF;
+    width: clamp(138px, calc(106.31px + 8.451vw), 228px);
+    height: clamp(88.46px, calc(39.326px + 13.102vw), 228px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(6%, 105%);
+    padding-left: clamp(12px, calc(2.141px + 2.629vw), 40px);
+    padding-bottom: clamp(16px, calc(7.549px + 2.254vw), 40px);
+    box-shadow: 0px 20px 45px -25px #c399fd;
+}
+
+.gamesta-apisdk-img {
+    width: clamp(15.46px, calc(4.002px + 3.055vw), 48px);
+    height: clamp(15.46px, calc(4.002px + 3.055vw), 48px);
+}
+
+
+.future-card-img {
+    width: clamp(20px, calc(10.141px + 2.629vw), 48px);
+    height: clamp(20px, calc(10.141px + 2.629vw), 48px);
+}
+
+.future-card-p {
+    margin-top: clamp(5px, calc(1.127px + 1.033vw), 16px);
+    font-size: clamp(12px, calc(9.183px + 0.751vw), 20px);
+}
+
+
+
+
+/* .future-section{
     height: 745px;
     margin-bottom: 144px;
     margin-top: 50px;
@@ -341,8 +491,8 @@ img{
 
 .future-heading-div{
     anchor-name: --future-heading-div;
-    max-width: clamp(201px, calc(-217.108px + 59.73vw), 643px);
-    margin-left: clamp(0px, calc(-129.595px + 18.514vw), 137px);
+    max-width: clamp(201px, calc(45.366px + 41.502vw), 643px);
+    margin-left: clamp(0px, calc(-48.239px + 12.864vw), 137px);
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -351,22 +501,21 @@ img{
 
 
 .future-btn{
-    /* padding: 20px 24px; */
     padding: clamp(8px, calc(-3.351px + 1.622vw), 20px) clamp(8px, calc(-7.135px + 2.162vw), 24px);
     border-radius: 6px;
     cursor: pointer;
     border: none;
     background: linear-gradient(to right, #06C5C1, #009FEA);
+    box-shadow: 0 7px 12px rgb(0 179 232 / 19%);
 }
 
 
 .future-h2{
-    margin-bottom: 29px;
+    margin-bottom: clamp(13px, calc(-9.4px + 3.2vw), 29px);
 }
 
 
 .future-card{
-    /* padding: 32px; */
     border-radius: clamp(12.88px, calc(-12.774px + 3.665vw), 40px);
     display: flex;
     flex-direction: column;
@@ -378,28 +527,28 @@ img{
 
 .future-card-1 {
     background-color: #EBF9FF;
-    width: clamp(89px, 20vw, 199px);
-    height: clamp(64px, 17vw, 199px);
+    width: clamp(89px, calc(-15.054px + 14.865vw), 199px);
+    height: clamp(64px, calc(-63.703px + 18.243vw), 199px);
     top: anchor(bottom);
     left: anchor(right);
-    transform: translate(35%, -130%);
+    transform: translate(clamp(27px, calc(-23.135px + 7.162vw), 80px), clamp(-255px, calc(42.73px - 20.676vw), -102px));
     box-shadow: 0px 25px 34px -32px #27beffb7;
     padding-left: clamp(10px, calc(-19.324px + 4.189vw), 41px);
     padding-bottom: clamp(10px, calc(-18.378px + 4.054vw), 40px);
 }
 
 .earn2buy-img{
-    width: clamp(15.46px, 4vw, 48px);
-    height: clamp(15.46px, 4vw, 48px);
+    width: clamp(15.46px, calc(-15.321px + 4.397vw), 48px);
+    height: clamp(15.46px, calc(-15.321px + 4.397vw), 48px);
 }
 
 .future-card-2 {
     background-color: #EBF9FF;
-    width: clamp(120px, 14vw, 193px);
-    height: clamp(62px, 14vw, 193px);
+    width: clamp(120px, calc(50.946px + 9.865vw), 193px);
+    height: clamp(62px, calc(-61.919px + 17.703vw), 193px);
     top: anchor(bottom);
     right: anchor(left);
-    transform: translate(146%, 118%);
+    transform: translate(clamp(122px, calc(-18px + 20vw), 270px), clamp(185px, calc(144.324px + 5.811vw), 228px));
     box-shadow: 0px 25px 34px -32px #27beffb7;
     padding-left: clamp(10px, calc(-10.811px + 2.973vw), 32px);
     padding-bottom: clamp(5px, calc(-20.541px + 3.649vw), 32px);
@@ -411,7 +560,7 @@ img{
     height: clamp(58px, calc(-57.405px + 16.486vw), 180px);
     top: anchor(bottom);
     right: anchor(left);
-    transform: translate(187%, 5%);
+    transform: translate(clamp(109px, calc(-98.162px + 29.595vw), 328px), clamp(15.47px, calc(4.826px + 0.739vw), 10px));
     padding-left: clamp(6px, calc(-16.703px + 3.243vw), 30px);
     padding-bottom: clamp(6px, calc(-18.595px + 3.514vw), 32px);
     box-shadow: 0px 20px 45px -25px #d1d4d4;
@@ -419,45 +568,57 @@ img{
 
 .future-card-4 {
     background-color: #FFEAF9;
-    width: 228px;
-    height: 228px;
-    bottom: 19%;
-    left: 36%;
+    width: clamp(117px, calc(12px + 15vw), 228px);
+    height: clamp(77px, calc(-65.838px + 20.405vw), 228px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(clamp(-287px, calc(16.568px + -21.081vw), -131px), clamp(90px, calc(75.811px + 2.027vw), 105px));
+    padding-left: clamp(9px, calc(-12.757px + 3.108vw), 32px);
+    padding-bottom: clamp(8px, calc(-14.703px + 3.243vw), 32px);
     box-shadow: 0px 34px 45px -28px #fc47c85e;
 }
 
 .future-card-5 {
     background-color: #F5F9FA;
-    width: 180px;
-    height: 180px;
-    bottom: 34%;
-    right: 32%;
+    width: clamp(86px, calc(-2.919px + 12.703vw), 180px);
+    height: clamp(53px, calc(-67.135px + 17.162vw), 180px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(-36px, clamp(12px, calc(4.432px + 1.081vw), 20px));
+    padding-left: clamp(8px, calc(-21.324px + 4.189vw), 39px);
+    padding-bottom: clamp(8px, calc(-22.27px + 4.324vw), 40px);
     box-shadow: 0px 20px 45px -25px #d1d4d4;
 }
 
 
 .future-card-6 {
     background-color: #EEFFF3;
-    width: 228px;
-    height: 228px;
-    bottom: 34%;
-    right: 12%;
+    width: clamp(80px, calc(-60px + 20vw), 228px);
+    height: clamp(74px, calc(-71.676px + 20.811vw), 228px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(clamp(62px, calc(-42.054px + 14.865vw), 172px), -25px);
+    padding-left: clamp(6px, calc(-26.162px + 4.595vw), 40px);
+    padding-bottom: clamp(8px, calc(-22.27px + 4.324vw), 40px);
     box-shadow: 0px 20px 45px -25px #73fa9b;
 }
 
 
 .future-card-7 {
     background-color: #F8F3FF;
-    width: 228px;
-    height: 228px;
-    bottom: 0%;
-    right: 25%;
+    width: clamp(138px, calc(52.865px + 12.162vw), 228px);
+    height: clamp(88.46px, calc(-43.537px + 18.857vw), 228px);
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(6%, 105%);
+    padding-left: clamp(12px, calc(-14.486px + 3.784vw), 40px);
+    padding-bottom: clamp(16px, calc(-6.703px + 3.243vw), 40px);
     box-shadow: 0px 20px 45px -25px #c399fd;
 }
 
 .gamesta-apisdk-img {
-    width: clamp(15.46px, 4vw, 20px);
-    height: clamp(15.46px, 4vw, 20px);
+    width: clamp(15.46px, calc(3.627px + 3.698vw), 48px);
+    height: clamp(15.46px, calc(3.627px + 3.698vw), 48px);
 }
 
 
@@ -468,8 +629,8 @@ img{
 
 .future-card-p{
     margin-top: clamp(5px, calc(-5.405px + 1.486vw), 16px);
-    font-size: clamp(12px, 2vw, 20px);
-}
+    font-size: clamp(12px, calc(4.432px + 1.081vw), 20px);
+} */
 
 
 .loan-2-buy{
@@ -957,13 +1118,14 @@ img{
     color: transparent;
     -webkit-text-stroke: 1px var(--primary-sky);
     opacity: 40%;
-    margin-left: 131px;
+    margin-left: clamp(7px, calc(-36.662px + 11.643vw), 131px);
 }
 
 
 .play2earn-h2{
     top: 7%;
-    left: 302px;
+    left: clamp(60.81px, calc(-24.116px + 22.647vw), 302px);
+    font-size: clamp(31.21px, calc(8.397px + 6.084vw), 96px);
 }
 
 .play2earn-top-h4{
