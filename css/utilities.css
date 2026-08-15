@@ -50,15 +50,15 @@
 }
 
 .str-font-112px{
-    font-size: 112px;
+    font-size: clamp(26px, calc(-4.42px + 8.09vw), 112px);
 }
 
 .str-font-96px{
-    font-size: clamp(30px, calc(6.761px + 6.197vw), 96px);
+    font-size: clamp(40px, calc(20.263px + 5.263vw), 96px);
 }
 
 .str-font-88px{
-    font-size: 88px;
+    font-size: clamp(24px, calc(1.362px + 6.021vw), 88px);
 }
 
 .str-font-72px{
@@ -70,7 +70,7 @@
 }
 
 .str-font-48px{
-    font-size: 48px;
+    font-size: clamp(24px, calc(15.511px + 2.258vw), 48px);
 }
 .str-font-36px{
     font-size: 36px;
