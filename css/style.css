@@ -65,7 +65,7 @@
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 
@@ -149,11 +149,11 @@ img{
 
 .hero-h1 {
     margin-bottom: 40px;
-    margin-left: 100px;
+    margin-left: clamp(0px, calc(-35.372px + 9.407vw), 100px);
 }
 
 .hero-left-div {
-    padding-left: 168px;
+    padding-left: clamp(0px, calc(-59.424px + 15.804vw), 168px);
 }
 
 .hero-left-div-p {
@@ -218,9 +218,9 @@ img{
 .bodyguard {
     bottom: anchor(top);
     right: anchor(left);
-    transform: translate(178%, 10%);
+    transform: translate(303%, 5%);
     z-index: 21;
-    width: clamp(80px, calc(47.254px + 8.732vw), 173px);
+    width: clamp(45px, calc(27.314px + 4.704vw), 95px);
 }
 
 .top-characters {
@@ -499,7 +499,12 @@ img{
 }
 
 .technical-h3 {
-    margin-bottom: 60px;
+    margin-bottom: clamp(20px, calc(5.851px + 3.763vw), 60px);
+    font-size: clamp(24px, calc(19.755px + 1.129vw), 36px);
+}
+
+.roadmap-year{
+    font-size: clamp(18px, calc(15.878px + 0.564vw), 24px);
 }
 
 
@@ -512,7 +517,7 @@ img{
 }
 
 .sky-roadmap-content {
-    width: 328px;
+    width: clamp(253px, calc(93.215px + 16.107vw), 325px);
     border: 2px solid var(--primary-sky);
     padding: 19.46px 17.54px 19.54px 19.46px;
     color: var(--primary-sky);
@@ -543,7 +548,8 @@ img{
 
 
 .green-blue-bottom-arrow {
-    margin-left: 87px;
+    margin-left: clamp(0px, calc(-193.074px + 19.463vw), 87px);
+    width: clamp(290px, calc(63.976px + 60.113vw), 929px);
 }
 
 
@@ -562,7 +568,7 @@ img{
 
 
 .green-roadmap-content {
-    width: 328px;
+    width: clamp(253px, calc(93.215px + 16.107vw), 325px);
     border: 2px solid #0EC742;
     background-color: #EEFFF3;
     padding: 19.46px 17.54px 19.54px 19.46px;
@@ -589,7 +595,7 @@ img{
 
 
 .indigo-roadmap-content {
-    width: 328px;
+    width: clamp(253px, calc(93.215px + 16.107vw), 325px);
     border: 2px solid #5F0EC7;
     background-color: #F8F3FF;
     padding: 19.46px 17.54px 19.54px 19.46px;
@@ -622,7 +628,7 @@ img{
 
 
 .orange-roadmap-content {
-    width: 328px;
+    width: clamp(253px, calc(93.215px + 16.107vw), 325px);
     border: 2px solid #FF7A00;
     background-color: #FFF9F1;
     padding: 19.46px 17.54px 19.54px 19.46px;
@@ -631,9 +637,10 @@ img{
 
 
 
-.orrange-green-bottom-arrow {
-    margin-left: 87px;
+.orange-green-bottom-arrow {
+    margin-left: clamp(0px, calc(-193.074px + 19.463vw), 87px);
     margin-top: -95px;
+    width: clamp(290px, calc(63.976px + 60.113vw), 929px);
 }
 
 
@@ -656,7 +663,7 @@ img{
 
 
 .pink-roadmap-content {
-    width: 328px;
+    width: clamp(253px, calc(93.215px + 16.107vw), 325px);
     border: 2px solid #D242AA;
     background-color: #FFEAF9;
     padding: 19.46px 17.54px 19.54px 19.46px;
@@ -705,6 +712,7 @@ img{
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: start;
+    column-gap: 32px;
 }
 
 
@@ -714,6 +722,7 @@ img{
     margin-right: 104px;
     width: 100%;
     max-width: 366px;
+    justify-self: self-end;
 }
 
 .jody-taylor-card {
@@ -755,6 +764,7 @@ img{
 .james-rodd-card {
     width: 100%;
     max-width: 370px;
+    place-self: self-end;
 }
 
 .gamesta-team-img {
@@ -779,6 +789,11 @@ img{
 .sanjay-jadhav-p {
     width: 100%;
     max-width: 301px;
+}
+
+
+.advisors-div{
+    margin-left: 180px;
 }
 
 
@@ -909,8 +924,6 @@ img{
 
 
 .community-icon-div{
-    width: 135px;
-    height: 135px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -923,13 +936,22 @@ img{
 
 
 .community-icon-twitter{
+    width: clamp(53.29px, calc(24.388px + 7.687vw), 135px);
+    height: clamp(35.84px, calc(0.766px + 9.328vw), 135px);
     background-color: #4AA0EB;
-    top: -1.7%;
+    top: clamp(-8.5px, calc(71.708px + -5.574vw), 50.75px);
     left: 47.4%;
+}
+
+.twitter-img, .telegram-img, .youtube-img{
+    width: clamp(10.62px, calc(0.228px + 2.764vw), 40px);
+    height: clamp(10.62px, calc(0.228px + 2.764vw), 40px);
 }
 
 
 .community-icon-telegram{
+    width: clamp(67.48px, calc(43.597px + 6.352vw), 135px);
+    height: clamp(35.84px, calc(0.766px + 9.328vw), 135px);
     background-color: #1A8BD8;
     top: 56.8%;
     left: 30.5%;
@@ -938,6 +960,8 @@ img{
 
 
 .community-icon-youtube{
+    width: clamp(62.41px, calc(36.734px + 6.829vw), 135px);
+    height: clamp(35.84px, calc(0.766px + 9.328vw), 135px);
     background-color: #F83641;
     top: 19%;
     right: 14%;
@@ -1164,8 +1188,8 @@ img{
 .gsg-bottom-p{
     width: clamp(207px, calc(184.716px + 5.927vw), 270px);
     position: absolute;
-    bottom: clamp(-45px, calc(-80.372px + 9.407vw), 55px);
-    left: -1%;
+    bottom: clamp(-45px, calc(-85.677px + 10.818vw), 70px);
+    left: -5%;
     text-align: end;
     font-size: clamp(12px, calc(11.293px + 0.188vw), 14px);
 }
@@ -1201,12 +1225,13 @@ img{
 .distribution-h3{
     margin-top: 42px;
     margin-bottom: 82.44px;
-    margin-left: 252.2px;
+    margin-left: clamp(0px, calc(-89.207px + 23.725vw), 252.2px);
 }
 
 .distribution-div{
     margin-left: clamp(0px, calc(-45.626px + 12.135vw), 128.99px);
     margin-bottom: 82.79px;
+    position: relative;
 }
 
 .distribution-80-p{
@@ -1217,15 +1242,20 @@ img{
     position: relative;
 }
 
-.distribution-80-p::after{
+.distribution-number-hr{
+    display: none;
+}
+
+
+.remaining-20-div::after{
     content: '';
     position: absolute;
     width: 1px;
     height: 649.89px;
     background: #000000;
     opacity: 10%;
-    top: -255%;
-    right: -6%;
+    top: 0%;
+    left: 0%;
     rotate: -164.54deg;
 }
 
@@ -1240,6 +1270,7 @@ img{
 
 .remaining-20-div{
     padding-top: 72.97px;
+    position: relative;
 }
 
 .remaining-span{
@@ -1248,7 +1279,15 @@ img{
     margin-bottom: -6px;
 }
 
+
+.distribution-number80{
+    width: clamp(343px, calc(322.477px + 5.458vw), 401.02px);
+}
+
+
+
 .remaining-20-img{
+    width: clamp(343px, calc(322.477px + 5.458vw), 401.02px);
     margin-left: clamp(0px, calc(-86.699px + 23.058vw), 245.11px);
     margin-bottom: clamp(24px, calc(10.463px + 3.6vw), 62.27px);
 }
@@ -1260,7 +1299,7 @@ img{
 
 
 .all-distri-number-div{
-    margin-left: 42.11px;
+    margin-left: clamp(0px, calc(-93.452px + 9.421vw), 42.11px);
     gap: 53px;
     width: 100%;
     max-width: 669.37px;
@@ -1522,14 +1561,14 @@ img{
 
 .community-left-stick{
     position: absolute;
-    width: 387px;
+    width: clamp(96px, calc(-6.931px + 27.375vw), 387px);
     top: 25%;
     left: 0%;
 }
 
 .community-right-stick{
     position: absolute;
-    width: 250px;
+    width: clamp(58px, calc(-9.913px + 18.062vw), 250px);
     bottom: 37%;
     right: 0%;
 }
@@ -1596,7 +1635,7 @@ img{
 
 .footer-triangle-1{
     width: 100%;
-    height: 142px;
+    height: clamp(41.15px, calc(5.478px + 9.487vw), 142px);
     clip-path: polygon(100% 0%, 100% 100%, 10% 100%);
     background-color: #FFFFFF;
     transform: scale(-1);
@@ -1605,10 +1644,11 @@ img{
 
 .footer-triangle-2{
     width: 100%;
-    height: 140px;
+    height: clamp(37.16px, calc(0.784px + 9.675vw), 140px);
     clip-path: polygon(73% 0%, 77% 100%, -15% 100%);
     background-color: #FFFFFF;
     transform: scale(-1);
     top: 0;
     right: 0;
+    margin-top: -1px;
 }

@@ -5,6 +5,11 @@
     .header{
         padding: 24px 16px 0px !important;
     }
+
+    .footer-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 
@@ -13,14 +18,6 @@
     /* hero section */
     .bg-img-div {
         background-position: top center !important;
-    }
-
-    .hero-left-div{
-        padding-left: 0px !important;
-    }
-
-    .hero-h1{
-        margin-left: 0px !important;
     }
     
     .macBook {
@@ -47,6 +44,83 @@
 
     .triangle-shape{
         clip-path: polygon(100% 15%, 100% 100%, -25% 100%);
+    }
+
+    .all-distri-number-div{
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .distribution-div {
+        flex-direction: column;
+    }
+
+    .distribution-number-hr{
+        display: block !important;
+        width: clamp(458px, calc(126.099px + 88.272vw), 1030px);
+        position: absolute;
+        top: 35%;
+        left: -98px;
+        rotate: 174.68deg;
+        opacity: 10%;
+        background-color: #000000;
+    }
+
+    .remaining-20-div::after {
+        display: none;
+    }
+
+    .remaining-20-div{
+        align-self: flex-end;
+    }
+
+    .technical-roadmap-section{
+        padding: 0px 16px;
+    }
+
+    .partners-container{
+        padding: 0px 16px;
+    }
+
+    .blog-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .blog-card-group{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .green-blue-bottom-arrow,
+    .orange-green-bottom-arrow {
+        margin: 0 auto !important;
+    }
+
+    .orange-roadmap-q3 {
+        align-self: flex-end;
+    }
+
+    .roadmap-2{
+        align-items: flex-end;
+    }
+}
+
+
+
+@media screen and (min-width: 985px) and (max-width: 1024px){
+    .macBook{
+        width: 480px !important;
+        top: 115% !important;
+    }
+
+    .right-char{
+        transform: translate(-55%, -218%) !important;
+    }
+
+    .bodyguard{
+        transform: translate(271%, 5%) !important;
     }
 }
 
@@ -87,18 +161,82 @@
 
 
 
+@media screen and (max-width: 991px) {
+    /* Technical Roadmap section */
+        .technical-roadmap-section {
+            padding-top: 31.03px;
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+            margin-bottom: 30.37px !important;
+        }
+    
+        .roadmap-1 {
+            flex-direction: column;
+            gap: 40px;
+        }
+    
+        .sky-roadmap-content,
+        .indigo-roadmap-content,
+        .green-roadmap-content,
+        .pink-roadmap-content {
+            width: 100% !important;
+        }
+    
+        .right-arrow {
+            margin-bottom: 0px !important;
+            margin-right: 0px !important;
+            align-self: center !important;
+            rotate: 90deg;
+        }
+    
+        .roadmap-2 {
+            flex-direction: column;
+            gap: 37px;
+        }
+    
+        .green-indigo-right-arrow {
+            margin-top: 4px;
+        }
+    
+        .green-indigo-right-arrow,
+        .indigo-orrange-right-arrow {
+            margin-bottom: 0px !important;
+            rotate: 90deg;
+            align-self: center;
+        }
+
+    
+        .orange-roadmap-content {
+            width: 100% !important;
+        }
+    
+        .roadmap-3 {
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        .green-pink-right-arrow,
+        .pink-blue-right-arrow {
+            rotate: 90deg;
+            margin-top: 0px;
+            align-self: center;
+        }
+    
+        .pink-blue-right-arrow {
+            margin-top: 7px;
+        }
+
+        .green-blue-bottom-arrow, .orange-green-bottom-arrow{
+            margin: 0px auto !important;
+        }
+}
+
+
+
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .bg-img-div{
         height: 1144px !important;
-    }
-    
-    .hero-h1{
-        margin-left: 0px !important;
-    }
-
-    .hero-left-div{
-        padding-left: 0px !important;
     }
 
     .macBook{
@@ -108,7 +246,7 @@
     }
 
     .bodyguard{
-        transform: translate(312%, 10%) !important;
+        transform: translate(543%, 10%) !important;
     }
 
     .right-char{
@@ -117,6 +255,11 @@
 
     .left-char{
         transform: translate(75%, -55%) !important;
+    }
+
+
+    .advisory-services-grid {
+        grid-template-columns: 1fr 1fr !important;
     }
 
 
@@ -129,7 +272,6 @@
     }
 
     .gamesta-dapp-selected-p-div{
-        right: -6% !important;
         top: -25%;
     }
 
@@ -146,13 +288,47 @@
         clip-path: polygon(100% 0%, 100% 100%, -97% 100%);
     }
 
+    .footer-container-div{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
 
+    .all-rights-br{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
     .play2earn-card-grid {
         grid-template-columns: 1fr !important;
         margin-bottom: 80px !important;
     }
-}
 
+    .nfts-card-mobile,
+    .token-dynamics-card-mobile {
+        display: flex !important;
+    }
+
+    .empowerment-card,
+    .scholarships-card {
+        display: none;
+    }
+
+    .play2earn-flex-end {
+        align-items: end;
+    }
+
+    .play2earn-card {
+        flex-direction: column;
+    }
+
+    .play2earn-black-stick {
+        display: none;
+    }
+}
 
 
 
@@ -173,7 +349,6 @@
     }
     
     .hero-h1{
-        margin-left: 0px !important;
         margin-bottom: 20px !important;
     }
 
@@ -189,9 +364,6 @@
         line-height: 20px !important;
     }
 
-    .hero-left-div{
-        padding-left: 0px !important;
-    }
 
     .hero-left-div-p{
         margin-bottom: 24px !important;
@@ -398,32 +570,18 @@
         margin-bottom: 52px !important;
     }
 
-    .play2earn-card{
-        flex-direction: column;
-    }
 
     .play2earn-card-p{
         font-size: 16px !important;
     }
 
-    .play2earn-flex-end{
-        align-items: end;
-    }
+    
 
     .play2earn-card-content-flex-end{
         display: flex;
         flex-direction: column;
         align-items: end;
         text-align: end;
-    }
-
-    .nfts-card-mobile,
-    .token-dynamics-card-mobile {
-        display: flex !important;
-    }
-
-    .empowerment-card, .scholarships-card{
-        display: none;
     }
 
     .play2earn-blue-stick{
@@ -437,9 +595,6 @@
         left: -5%;
     }
 
-    .play2earn-black-stick{
-        display: none;
-    }
 
     .play-2-earn-games{
         margin-left: 0px !important;
@@ -515,10 +670,6 @@
         margin: 60px auto 34px auto !important;
     }
 
-    .distribution-div{
-        flex-direction: column;
-    }
-
     .distribution-number80{
         width: 100%;
     }
@@ -529,12 +680,6 @@
         margin-top: 28px !important;
     }
 
-    .distribution-80-p::after {
-        width: 649.89px !important;
-        height: 1px !important;
-        top: 160% !important;
-        rotate: 174.68deg !important;
-    }
     
     .remaining-span{
         margin-bottom: -25px !important;
@@ -652,80 +797,6 @@
         bottom: -1px !important;
         left: 16.16px;
         clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
-    }
-
-
-
-    /* Technical Roadmap section */
-    .technical-roadmap-section{
-        padding-top: 31.03px;
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-        margin-bottom: 30.37px !important;
-    }
-
-    .technical-h3{
-        font-size: 24px;
-        margin-bottom: 20px !important;
-    }
-
-    .roadmap-1{
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .sky-roadmap-content, .indigo-roadmap-content, .green-roadmap-content, .pink-roadmap-content{
-        width: 100% !important;
-    }
-
-    .right-arrow{
-        margin-bottom: 0px !important;
-        margin-right: 0px !important;
-        align-self: center !important;
-        rotate: 90deg;
-    }
-
-    .roadmap-year{
-        font-size: 18px !important;
-    }
-
-    .green-blue-bottom-arrow, .orrange-green-bottom-arrow{
-        width: 290px;
-        margin: 0 auto !important;
-    }
-
-    .roadmap-2{
-        flex-direction: column;
-        gap: 37px;
-    }
-
-    .green-indigo-right-arrow{
-        margin-top: 4px;
-    }
-
-    .green-indigo-right-arrow, .indigo-orrange-right-arrow{
-        margin-bottom: 0px !important;
-        rotate: 90deg;
-        align-self: center;
-    }
-
-    .orange-roadmap-content{
-        width: 100% !important;
-    }
-
-    .roadmap-3{
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .green-pink-right-arrow, .pink-blue-right-arrow{
-        rotate: 90deg;
-        margin-top: 0px;
-        align-self: center;
-    }
-
-    .pink-blue-right-arrow{
-        margin-top: 7px;
     }
 
 
@@ -882,10 +953,7 @@
     }
 
     .community-icon-twitter{
-        width: 53.29px !important;
-        height: 35.84px !important;
         gap: 3.11px !important;
-        top: 20.3% !important;
     }
 
     .twitter-img{
@@ -898,8 +966,6 @@
     }
 
     .community-icon-telegram{
-        width: 67.48px !important;
-        height: 35.84px !important;
         gap: 2.63px !important;
         top: 53% !important;
     }
@@ -914,10 +980,9 @@
 
 
     .community-icon-youtube{
-        width: 62.42px !important;
-        height: 35.84px !important;
         top: 34% !important;
         right: 6% !important;
+        gap: 3.8px !important;
     }
 
     .youtube-img{
@@ -930,12 +995,10 @@
     }
 
     .community-left-stick {
-        width: 96px !important;
         top: 36% !important;
     }
     
     .community-right-stick {
-        width: 58px !important;
         bottom: 40% !important;
     }
 
@@ -972,14 +1035,5 @@
 
     .footer-container-div-div{
         margin-bottom: 38px;
-    }
-
-    .footer-triangle-1{
-        height: 41.15px !important;
-    }
-
-    .footer-triangle-2{
-        height: 37.16px !important;
-        top: -1px !important;
     }
 }
