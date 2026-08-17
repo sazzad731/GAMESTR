@@ -90,6 +90,11 @@
     .blog-card-group{
         justify-content: center;
     }
+
+
+    .gamesta-advisor-group{
+        justify-content: center;
+    }
 }
 
 
@@ -788,6 +793,10 @@
         width: 241px;
     }
 
+    .advisory-left-stick{
+        display: none;
+    }
+
 
 
 
@@ -978,6 +987,7 @@
 
     .community-icon-twitter{
         gap: 3.11px !important;
+        transform: translate(262%, 74%) !important;
     }
 
     .twitter-img{
@@ -991,7 +1001,7 @@
 
     .community-icon-telegram{
         gap: 2.63px !important;
-        top: 53% !important;
+        transform: translate(143%, -20%) !important;
     }
 
     .telegram-img{
@@ -1004,8 +1014,6 @@
 
 
     .community-icon-youtube{
-        top: 34% !important;
-        right: 6% !important;
         gap: 3.8px !important;
     }
 

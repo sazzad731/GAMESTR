@@ -324,6 +324,7 @@ img{
     padding: 20px;
     background-color: #FFFFFF;
     border-radius: 8px;
+    box-shadow: 0px 7px 12px 0px #00B3E80D;
 }
 
 
@@ -713,6 +714,7 @@ img{
     grid-template-columns: repeat(3, auto);
     align-items: start;
     column-gap: 32px;
+    margin-right: clamp(0px, calc(-567.518px + 55.422vw), 230px);
 }
 
 
@@ -794,7 +796,7 @@ img{
 
 
 .advisors-div{
-    margin-left: clamp(0px, calc(-63.669px + 16.933vw), 180px);
+    margin-left: clamp(0px, calc(-249.214px + 24.337vw), 101px);
 }
 
 
@@ -915,6 +917,7 @@ img{
 
 
 .community-h2{
+    anchor-name: --community-h2-anchor;
     rotate: -6deg;
     position: absolute;
     top: 33%;
@@ -932,6 +935,7 @@ img{
     color: #FFFFFF;
     rotate: -6deg;
     position: absolute;
+    position-anchor: --community-h2-anchor;
 }
 
 
@@ -939,8 +943,9 @@ img{
     width: clamp(53.29px, calc(24.388px + 7.687vw), 135px);
     height: clamp(35.84px, calc(0.766px + 9.328vw), 135px);
     background-color: #4AA0EB;
-    top: clamp(-8.5px, calc(71.708px + -5.574vw), 50.75px);
-    left: 47.4%;
+    bottom: anchor(top);
+    right: anchor(left);
+    transform: translate(343%, 74%);
 }
 
 .twitter-img, .telegram-img, .youtube-img{
@@ -953,8 +958,9 @@ img{
     width: clamp(67.48px, calc(43.597px + 6.352vw), 135px);
     height: clamp(35.84px, calc(0.766px + 9.328vw), 135px);
     background-color: #1A8BD8;
-    top: 56.8%;
-    left: 30.5%;
+    top: anchor(bottom);
+    right: anchor(left);
+    transform: translate(176%, -25%);
     z-index: -1;
 }
 
@@ -963,8 +969,9 @@ img{
     width: clamp(62.41px, calc(36.734px + 6.829vw), 135px);
     height: clamp(35.84px, calc(0.766px + 9.328vw), 135px);
     background-color: #F83641;
-    top: 19%;
-    right: 14%;
+    top: anchor(bottom);
+    left: anchor(right);
+    transform: translate(-5%, -185%);
 }
 
 
@@ -1148,8 +1155,15 @@ img{
     margin-left: clamp(71px, calc(-152.195px + 59.36vw), 702px);
 }
 
+.gsg-main-div-container{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
 .gsg-main-div{
-    top: clamp(245px, calc(590.198px + -23.989vw), 500px);
+    top: clamp(-765px, calc(-135.522px + -43.744vw), -300px);
     left: clamp(16px, calc(10.341px + 1.505vw), 32px);
     z-index: -1;
 }
@@ -1459,6 +1473,12 @@ img{
 
 .advisory-service{
     gap: 12px;
+}
+
+
+.advisory-left-stick{
+    width: clamp(0px, calc(-97.272px + 25.87vw), 275px);
+    top: 43%;
 }
 
 
