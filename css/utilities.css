@@ -276,20 +276,23 @@
 
 .stick-white{
     position: absolute;
-    border: 1px solid #FFFFFF;
+    height: 1px;
+    background-color: #FFFFFF;
     rotate: -6deg;
 }
 
 
 .stick-blue{
     position: absolute;
-    border: 1px solid var(--primary-sky);
+    height: 1px;
+    background-color: var(--primary-sky);
     rotate: -6deg;
 }
 
 .stick-black{
     position: absolute;
-    border: 1px solid var(--primary-dark);
+    height: 1px;
+    background-color: var(--primary-dark);
     rotate: -6deg;
 }
 

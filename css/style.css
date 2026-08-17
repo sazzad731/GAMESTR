@@ -293,7 +293,8 @@ img{
 
 .gamesta-dapp-left-line {
     position: absolute;
-    border: 1px solid var(--primary-sky);
+    background-color: var(--primary-sky);
+    height: 1px;
     width: 262px;
     rotate: -6deg;
     top: 160px;
