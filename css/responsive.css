@@ -77,6 +77,7 @@
         padding: 0px 16px;
     }
 
+
     .partners-container{
         padding: 0px 16px;
     }
@@ -163,72 +164,83 @@
 
 @media screen and (max-width: 991px) {
     /* Technical Roadmap section */
-        .technical-roadmap-section {
-            padding-top: 31.03px;
-            padding-left: 16px !important;
-            padding-right: 16px !important;
-            margin-bottom: 30.37px !important;
-        }
+    .technical-roadmap-section {
+        padding-top: 31.03px;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        margin-bottom: 30.37px !important;
+    }
     
-        .roadmap-1 {
-            flex-direction: column;
-            gap: 40px;
-        }
+    .roadmap-1 {
+        flex-direction: column;
+        gap: 40px;
+    }
     
-        .sky-roadmap-content,
-        .indigo-roadmap-content,
-        .green-roadmap-content,
-        .pink-roadmap-content {
-            width: 100% !important;
-        }
+    .sky-roadmap-content,
+    .indigo-roadmap-content,
+    .green-roadmap-content,
+    .pink-roadmap-content {
+        width: 100% !important;
+    }
     
-        .right-arrow {
-            margin-bottom: 0px !important;
-            margin-right: 0px !important;
-            align-self: center !important;
-            rotate: 90deg;
-        }
+    .right-arrow {
+        margin-bottom: 0px !important;
+        margin-right: 0px !important;
+        align-self: center !important;
+        rotate: 90deg;
+    }
     
-        .roadmap-2 {
-            flex-direction: column;
-            gap: 37px;
-        }
+    .roadmap-2 {
+        flex-direction: column;
+        gap: 37px;
+    }
     
-        .green-indigo-right-arrow {
-            margin-top: 4px;
-        }
+    .green-indigo-right-arrow {
+        margin-top: 4px;
+    }
     
-        .green-indigo-right-arrow,
-        .indigo-orrange-right-arrow {
-            margin-bottom: 0px !important;
-            rotate: 90deg;
-            align-self: center;
-        }
+    .green-indigo-right-arrow,
+    .indigo-orrange-right-arrow {
+        margin-bottom: 0px !important;
+        rotate: 90deg;
+        align-self: center;
+    }
 
     
-        .orange-roadmap-content {
-            width: 100% !important;
-        }
+    .orange-roadmap-content {
+        width: 100% !important;
+    }
     
-        .roadmap-3 {
-            flex-direction: column;
-            gap: 30px;
-        }
+    .roadmap-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
     
-        .green-pink-right-arrow,
-        .pink-blue-right-arrow {
-            rotate: 90deg;
-            margin-top: 0px;
-            align-self: center;
-        }
+    .green-pink-right-arrow,
+    .pink-blue-right-arrow {
+        rotate: 90deg;
+        margin-top: 0px;
+        align-self: center;
+    }
     
-        .pink-blue-right-arrow {
-            margin-top: 7px;
-        }
+    .pink-blue-right-arrow {
+        margin-top: 7px;
+    }
 
-        .green-blue-bottom-arrow, .orange-green-bottom-arrow{
-            margin: 0px auto !important;
-        }
+    .green-blue-bottom-arrow, .orange-green-bottom-arrow{
+        margin: 0px auto !important;
+    }
+
+    .gamesta-team-card-grid {
+        grid-template-columns: repeat(2, auto) !important;
+    }
+
+    .sanjay-jadhav-card{
+        grid-column: 2 !important;
+        grid-row: 3 !important;
+        padding-top: 0px !important;
+        margin-top: -150px;
+    }
 }
 
 
@@ -829,9 +841,17 @@
         margin-top: 0px !important;
     }
 
+
+    .jody-taylor-card,
+    .james-rodd-card{
+        place-self: self-start !important;
+    }
+
+
     .sanjay-jadhav-card{
         padding-top: 0px !important;
         margin-bottom: 60px;
+        margin-top: 0px !important;
     }
 
     .james-rodd-card{
@@ -852,7 +872,6 @@
     .advisors-h3{
         font-size: 32px !important;
         margin-top: 0px !important;
-        margin-left: 0px !important;
     }
 
     .gamesta-advisor-card{
